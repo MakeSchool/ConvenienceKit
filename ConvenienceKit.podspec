@@ -10,18 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "ConvenienceKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ConvenienceKit."
+  s.summary          = "Wrappers for UIKit and convenience features for Swift. Built for Make School tutorials."
   s.description      = <<-DESC
-                       An optional longer description of ConvenienceKit
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A library providing multiple UIKit wrappers and other helper functions for Make School's tutorials.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ConvenienceKit"
+  s.homepage         = "https://github.com/MakeSchool/ConvenienceKitPod"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ben-G" => "Benjamin.Encz@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ConvenienceKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ConvenienceKitPod.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
