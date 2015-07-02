@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/MakeSchool/ConvenienceKitPod"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Ben-G" => "Benjamin.Encz@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ConvenienceKitPod.git", :tag => s.version.to_s }
+  s.author           = { "Make School" => "code@makeschool.com" }
+  s.source           = { :git => "https://github.com/MakeSchool/ConvenienceKit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
