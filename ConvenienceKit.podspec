@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        A library providing multiple UIKit wrappers and other helper functions for Make School's tutorials.
                        DESC
-  s.homepage         = "https://github.com/MakeSchool/ConvenienceKitPod"
+  s.homepage         = "https://github.com/MakeSchool/ConvenienceKit"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Make School" => "code@makeschool.com" }
