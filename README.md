@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod "ConvenienceKit"
 ```
 
-## Author
-
-Ben-G, Benjamin.Encz@gmail.com
-
 ## License
 
 ConvenienceKit is available under the MIT license. See the LICENSE file for more info.
