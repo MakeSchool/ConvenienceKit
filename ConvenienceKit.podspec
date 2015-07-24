@@ -9,13 +9,12 @@
 
 Pod::Spec.new do |s|
   s.name             = "ConvenienceKit"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "Wrappers for UIKit and convenience features for Swift. Built for Make School tutorials."
   s.description      = <<-DESC
                        A library providing multiple UIKit wrappers and other helper functions for Make School's tutorials.
                        DESC
   s.homepage         = "https://github.com/MakeSchool/ConvenienceKit"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Make School" => "code@makeschool.com" }
   s.source           = { :git => "https://github.com/MakeSchool/ConvenienceKit.git", :tag => s.version.to_s }
@@ -28,8 +27,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'ConvenienceKit' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
