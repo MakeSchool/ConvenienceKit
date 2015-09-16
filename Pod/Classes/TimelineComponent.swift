@@ -87,7 +87,7 @@ public class TimelineComponent <T: Equatable, S: TimelineComponentTarget where S
   :param: object The object that shall be removed.
   */
   public func removeObject(object: T) {
-    removeObjectFromArray(object, &self.content)
+    self.content.removeObject(object)
     currentRange.endIndex = self.currentRange.endIndex - 1
     target?.tableView.reloadData()
   }
