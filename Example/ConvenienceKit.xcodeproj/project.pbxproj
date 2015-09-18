@@ -8,15 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		62A0B0E31BABCBA300B295A2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 62A0B0DA1BABCBA300B295A2 /* .gitkeep */; settings = {ASSET_TAGS = (); }; };
+		62A0B0E41BABCBA300B295A2 /* Array+RemoveObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0B0DB1BABCBA300B295A2 /* Array+RemoveObject.swift */; settings = {ASSET_TAGS = (); }; };
+		62A0B0E51BABCBA300B295A2 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0B0DC1BABCBA300B295A2 /* Delay.swift */; settings = {ASSET_TAGS = (); }; };
+		62A0B0E61BABCBA300B295A2 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0B0DD1BABCBA300B295A2 /* DismissSegue.swift */; settings = {ASSET_TAGS = (); }; };
+		62A0B0E71BABCBA300B295A2 /* KeyboardNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0B0DE1BABCBA300B295A2 /* KeyboardNotificationHandler.swift */; settings = {ASSET_TAGS = (); }; };
+		62A0B0E81BABCBA300B295A2 /* NSCacheSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0B0DF1BABCBA300B295A2 /* NSCacheSwift.swift */; settings = {ASSET_TAGS = (); }; };
+		62A0B0E91BABCBA300B295A2 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0B0E01BABCBA300B295A2 /* TextView.swift */; settings = {ASSET_TAGS = (); }; };
+		62A0B0EA1BABCBA300B295A2 /* TimelineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0B0E11BABCBA300B295A2 /* TimelineComponent.swift */; settings = {ASSET_TAGS = (); }; };
+		62A0B0EB1BABCBA300B295A2 /* UIViewController+PresentAnywhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A0B0E21BABCBA300B295A2 /* UIViewController+PresentAnywhere.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47E4711C690943F90094A404 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		47E4711C690943F90094A404 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = ConvenienceKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		62A0B0DA1BABCBA300B295A2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		62A0B0DB1BABCBA300B295A2 /* Array+RemoveObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveObject.swift"; sourceTree = "<group>"; };
+		62A0B0DC1BABCBA300B295A2 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		62A0B0DD1BABCBA300B295A2 /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		62A0B0DE1BABCBA300B295A2 /* KeyboardNotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardNotificationHandler.swift; sourceTree = "<group>"; };
+		62A0B0DF1BABCBA300B295A2 /* NSCacheSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCacheSwift.swift; sourceTree = "<group>"; };
+		62A0B0E01BABCBA300B295A2 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		62A0B0E11BABCBA300B295A2 /* TimelineComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineComponent.swift; sourceTree = "<group>"; };
+		62A0B0E21BABCBA300B295A2 /* UIViewController+PresentAnywhere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+PresentAnywhere.swift"; sourceTree = "<group>"; };
 		E0B7CF447E71C94E8B22E987 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E1EDF8291C6C8F9FB7E61C8D /* ConvenienceKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ConvenienceKit.podspec; path = ../ConvenienceKit.podspec; sourceTree = "<group>"; };
+		E1EDF8291C6C8F9FB7E61C8D /* ConvenienceKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ConvenienceKit.podspec; path = ../ConvenienceKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +68,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				62A0B0D91BABCBA300B295A2 /* Classes */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -72,6 +91,23 @@
 				E0B7CF447E71C94E8B22E987 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		62A0B0D91BABCBA300B295A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				62A0B0DA1BABCBA300B295A2 /* .gitkeep */,
+				62A0B0DB1BABCBA300B295A2 /* Array+RemoveObject.swift */,
+				62A0B0DC1BABCBA300B295A2 /* Delay.swift */,
+				62A0B0DD1BABCBA300B295A2 /* DismissSegue.swift */,
+				62A0B0DE1BABCBA300B295A2 /* KeyboardNotificationHandler.swift */,
+				62A0B0DF1BABCBA300B295A2 /* NSCacheSwift.swift */,
+				62A0B0E01BABCBA300B295A2 /* TextView.swift */,
+				62A0B0E11BABCBA300B295A2 /* TimelineComponent.swift */,
+				62A0B0E21BABCBA300B295A2 /* UIViewController+PresentAnywhere.swift */,
+			);
+			name = Classes;
+			path = ../../Pod/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,6 +136,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -109,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ConvenienceKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -132,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A0B0E31BABCBA300B295A2 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A0B0E71BABCBA300B295A2 /* KeyboardNotificationHandler.swift in Sources */,
+				62A0B0E51BABCBA300B295A2 /* Delay.swift in Sources */,
+				62A0B0E41BABCBA300B295A2 /* Array+RemoveObject.swift in Sources */,
+				62A0B0E91BABCBA300B295A2 /* TextView.swift in Sources */,
+				62A0B0EA1BABCBA300B295A2 /* TimelineComponent.swift in Sources */,
+				62A0B0E81BABCBA300B295A2 /* NSCacheSwift.swift in Sources */,
+				62A0B0EB1BABCBA300B295A2 /* UIViewController+PresentAnywhere.swift in Sources */,
+				62A0B0E61BABCBA300B295A2 /* DismissSegue.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "PROJECT" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ConvenienceKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,

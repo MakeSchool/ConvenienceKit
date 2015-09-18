@@ -14,7 +14,7 @@ public extension UIViewController {
   public func presentViewControllerFromTopViewController(viewControllerToPresent: UIViewController, animated: Bool = false, completion: (() -> Void)? = nil) {
     if self is UINavigationController {
       let navigationController = self as! UINavigationController
-      navigationController.topViewController.presentViewControllerFromTopViewController(viewControllerToPresent, animated: animated, completion: nil)
+      navigationController.topViewController!.presentViewControllerFromTopViewController(viewControllerToPresent, animated: animated, completion: nil)
     } else if (presentedViewController != nil) {
       presentedViewController!.presentViewControllerFromTopViewController(viewControllerToPresent, animated: true, completion: nil)
     } else {
