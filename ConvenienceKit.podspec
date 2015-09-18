@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ConvenienceKit"
-  s.version          = "0.3.0"
+  s.version          = "0.4.0"
   s.summary          = "Wrappers for UIKit and convenience features for Swift. Built for Make School tutorials."
   s.description      = <<-DESC
                        A library providing multiple UIKit wrappers and other helper functions for Make School's tutorials.
